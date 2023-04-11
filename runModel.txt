@@ -1,0 +1,4 @@
+# To run the model from Cmdstan you first need to compile the model and then under linux run:
+time ./FinalNegBinMultiPhi sample num_samples=50000 num_warmup=20000 thin=1 adapt delta=0.8 random seed=1  data file=MultiRegionData output file=output.csv
+
+
